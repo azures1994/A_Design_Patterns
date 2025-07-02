@@ -3,7 +3,7 @@ project(Design_Patterns VERSION 0.1.0 LANGUAGES C CXX)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin/)
 
-add_executable(Design_Patterns main.cpp)
+add_subdirectory(src/Singleton/)
 
 include(CTest)
 enable_testing()

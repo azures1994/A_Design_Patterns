@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/Design_Patterns",
+            "program": "${workspaceFolder}/bin/Singleton",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
