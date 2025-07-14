@@ -5,6 +5,7 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin/)
 
 add_subdirectory(src/Singleton/)
 add_subdirectory(src/Singleton2/)
+add_subdirectory(src/Observer/)
 
 include(CTest)
 enable_testing()
