@@ -6,7 +6,10 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin/)
 add_subdirectory(src/Singleton/)
 add_subdirectory(src/Singleton2/)
 add_subdirectory(src/Observer/)
+# Bridge
 add_subdirectory(src/Bridge/ADAS/)
+# Composite
+add_subdirectory(src/Composite/FileSystem/)
 
 include(CTest)
 enable_testing()
