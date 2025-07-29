@@ -10,6 +10,8 @@ add_subdirectory(src/Observer/)
 add_subdirectory(src/Bridge/ADAS/)
 # Composite
 add_subdirectory(src/Composite/FileSystem/)
+# Adapter
+add_subdirectory(src/Adapter/TemperatureSensor/)
 
 include(CTest)
 enable_testing()
